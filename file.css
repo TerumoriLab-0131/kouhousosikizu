@@ -1,17 +1,26 @@
 /* ===== [過去のデータページスタイル設定] ===== */
 
+main {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* ページ説明文 */
 .file-intro {
     font-size: 1.1em;
     padding-bottom: 20px;
-    border-bottom: 1px solid var(--color-text-main);
+    border-bottom: 1px solid var(--color-text-light);
     margin-bottom: 30px;
-    color: var(--color-text-main);
+    color: var(--color-text-light);
 }
 
 /* 各部署ボックスの全体デザイン */
 .file-department {
-    background: var(--color-text-main);
+    background: var(--color-text-light);
     padding: 20px;
     border-radius: 16px;
     box-shadow: 0 6px 12px var(--color-text-dark);
@@ -64,7 +73,7 @@
 }
 /* リンクボタンにマウスが乗ったときの効果 */
 .drive-link:hover {
-    background-color: #005fa3; 
+    background-color: var(--color-primary-dark); 
     transform: scale(1.05); 
 }
 

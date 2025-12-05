@@ -2,10 +2,6 @@
 
 /* 組織図 */
 main {
-    position: relative;
-    left: 0;
-    top: 0;
-    transform: none;
     margin-top: 50px;   
     min-height: auto; 
     max-width: 100%;
@@ -15,10 +11,10 @@ main {
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 0px;
 }
 .org-chart {
-    max-width: 800px; 
+    max-width: 100%; 
     margin-top: 50px; 
     padding: 0 20px; 
     display: flex;
