@@ -2,12 +2,13 @@
 
 /* カラーパレット定義 */
 :root {
-    --color-primary: #1b718b;    /* メインカラー（背景など） */
-    --color-primary-dark: #96321b;
-    --color-accent: #ef9119;     /* アクセントカラー（ボタン・見出しなど） */
-    --color-bg-light: #f2ebea;   /* 背景の淡色（カードなど） */
-    --color-text-main: #ffffff;  /* メインテキスト色 */
-    --color-text-dark: #333333;  /* サブテキスト・濃色文字 */
+    --color-primary: #1b718b;    /* メインカラー */
+    --color-primary-dark: #155a6f;
+    --color-accent: #ef9119;     /* アクセントカラー */
+    --color-accent-dark:#bf7414;
+    --color-bg-light: #f2ebea;   /* 背景の淡色 */
+    --color-text-light: #ffffff;  /* メインテキスト白色 */
+    --color-text-dark: #333333;  /* メインテキスト黒色 */
     --color-shadow: rgba(0, 0, 0, 0.3); /* 影用 */
 }
 
@@ -55,7 +56,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 0 30px;
     z-index: 100;
 }
 
@@ -82,7 +83,7 @@ body {
     display: block;
     width: 28px;
     height: 5px;
-    background-color: var(--color-text-main);
+    background-color: var(--color-text-light);
     margin: 0;
     transition: all 0.3s ease;
 }
@@ -95,14 +96,14 @@ body {
 }
 
 .nav-links a {
-    color: var(--color-text-main);
+    color: var(--color-text-light);
     text-decoration: none;
     font-weight: 600;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    text-shadow: 0 0 10px var(--color-text-main); 
+    text-shadow: 0 0 10px var(--color-text-light); 
 }
 
 /* ナビバー下余白 */
@@ -150,11 +151,11 @@ main {
 /* フッター */
 footer {
     text-align: center;
-    padding: 20px;
-    color: var(--color-text-main);
+    padding: 10px;
+    color: var(--color-text-light);
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
     z-index: 99;
 }
