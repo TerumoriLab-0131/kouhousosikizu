@@ -2,21 +2,21 @@
 
 /* 組織図 */
 main {
-    margin-top: 50px;   
-    min-height: auto; 
+    margin-top: 50px;
+    min-height: auto;
     max-width: 100%;
-    text-align: center; 
+    text-align: center;
     z-index: 10;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 0px;
 }
 .org-chart {
-    max-width: 100%; 
-    margin-top: 50px; 
-    padding: 0 20px; 
+    max-width: 100%;
+    margin-top: 50px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -106,18 +106,19 @@ main {
 /* メンバーリストのコンテナ */
 .member-list-container {
     padding: 10px; 
-    border-top: 1px solid var(--color-accent); 
+    border-top: 1px solid var(--color-primary); 
     margin-top: 10px; 
 }
 /* トップの名前 */
 .manager {
     font-weight: bold; 
-    color: var(--color-accent); 
+    color: var(--color-dark); 
     margin-bottom: 5px; 
     display: block; 
-    border-bottom: 2px dotted var(--color-accent); 
+    border-bottom: 2px dotted var(--color-primary); 
     padding-bottom: 5px; 
 }
+
 /* メンバー一覧のリスト */
 .member-list {
     list-style-type: none; 
@@ -128,7 +129,7 @@ main {
     margin-top: 10px; 
 }
 .member-list li {
-    background: var(--color-primary);
+    border: 2px solid var(--color-primary); 
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 0.9em;

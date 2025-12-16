@@ -29,21 +29,21 @@ html, body {
 body {
     margin: 0; 
     font-family: "Noto Sans JP", sans-serif; 
-    background-color: var(--color-primary); 
-    color: var(--color-text-main);
-    overflow-x: hidden; 
-    position: relative; 
+    background-color: var(--color-primary);
+    color: var(--color-text-dark);
+    overflow-x: hidden;
+    position: relative;
 }
 
 /* パーティクル背景 */
 #particle-bg {
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    width: 100%; 
-    height: 100%; 
-    z-index: 0; 
-    background: var(--color-bg-light); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    pointer-events: none;
 }
 
 /* ナビゲーションバー */
@@ -104,17 +104,6 @@ body {
 
 .nav-links a:hover {
     text-shadow: 0 0 10px var(--color-text-light); 
-}
-
-/* ナビバー下余白 */
-main {
-    margin-top: 0px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    z-index: 10;
 }
 
 /* スマホ用　*/
