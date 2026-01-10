@@ -7,7 +7,6 @@
     --color-accent: #1e73be; /* アクセントカラー */
     --color-accent-dark:#1b68ab; /* アクセントカラーの10%暗い色 */
     --color-bg-light: #ffffff; /* 背景色 */
-    --color-text-light: #ffffff; /* メインテキスト白色 */
     --color-text-dark: #333333; /* メインテキスト黒色 */
     --color-shadow: rgba(0, 0, 0, 0.3); /* 影用 */
 }

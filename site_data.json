@@ -3,54 +3,10 @@
     "subtitle": "広報活動とデザインを担うチーム"
   },
   "organization": {
-    "チラシ・ポスター部": {
-      "top": "藤井 宰",
-      "members": ["河合 熙衛", "志水 悠吾", "矢尾 優果", "金原 竜希", "高田 幸珠来"],
-      "tasks": {
-        "チラシ作成": {
-          "description": "演奏会のチラシをデザイン・印刷します。デザイン調整や印刷部数の管理も担当します。",
-          "pdf_link": "pdfs/チラシ作成詳細.pdf"
-        },
-        "パンフレット作成": {
-          "description": "演奏会当日に配布するパンフレットの制作。内容構成から印刷所への依頼までを担当します。",
-          "pdf_link": "pdfs/パンフレット作成詳細.pdf"
-        },
-        "静岡チラシ管理": {
-          "description": "静岡地区におけるチラシ配布や設置の調整・管理を担当します。",
-          "pdf_link": "pdfs/静岡チラシ管理詳細.pdf"
-        },
-        "浜松チラシ管理": {
-          "description": "浜松地区におけるチラシ配布や設置の調整・管理を担当します。",
-          "pdf_link": "pdfs/浜松チラシ管理詳細.pdf"
-        }
-      }
-    },
-    "許可申請部": {
-      "top": "伊東 陽菜",
-      "members": ["児玉 翔", "市場 幹九郎", "佐野 史哉", "安本 龍月", "山田 すずの", "大沼 夏香", "千島 結衣"],
-      "tasks": {
-        "事業報告、後援申請": {
-          "description": "演奏会後の報告や、後援申請のための書類作成と提出を担当します。",
-          "pdf_link": "pdfs/事業報告詳細.pdf"
-        },
-        "バンドジャーナル": {
-          "description": "音楽雑誌「バンドジャーナル」への掲載依頼や調整を行います。",
-          "pdf_link": "pdfs/バンドジャーナル詳細.pdf"
-        },
-        "プレイガイド": {
-          "description": "プレイガイドへの演奏会情報の登録や、チケット取り扱いの調整を行います。",
-          "pdf_link": "pdfs/プレイガイド詳細.pdf"
-        }
-      }
-    },
     "広報部": {
       "top": "川又 遥",
-      "members": ["伊東 陽菜", "佐野 史哉", "橘 璃帆", "山田すずの", "大沼 夏香", "鈴木 天音", "高田 幸珠来", "千島 結衣"],
+      "members": ["伊東 陽菜", "佐野 史弥", "橘 璃帆", "山田すずの", "大沼 夏香", "鈴木 天音", "千島 結衣"],
       "tasks": {
-        "挟み込み、置きチラシ": {
-          "description": "他団体演奏会へのチラシ挟み込み依頼や、各所への置きチラシを担当します。",
-          "pdf_link": "pdfs/挟み込み置きチラシ詳細.pdf"
-        },
         "広報活動日": {
           "description": "学内外での広報活動日程を調整し、実施を管理します。",
           "pdf_link": "pdfs/広報活動日詳細.pdf"
@@ -72,20 +28,68 @@
           "pdf_link": "pdfs/構内活動詳細.pdf"
         }
       }
+    },
+    "制作・管理部": {
+      "top": "藤井 宰",
+      "members": ["河合 熙衛", "志水 悠吾", "矢尾 優果", "金原 竜希", "髙田 幸珠来", "千島 結衣"],
+      "tasks": {
+        "チラシ作成": {
+          "description": "演奏会のチラシをデザイン・印刷します。デザイン調整や印刷部数の管理も担当します。",
+          "pdf_link": "pdfs/チラシ作成詳細.pdf"
+        },
+        "パンフレット作成": {
+          "description": "演奏会当日に配布するパンフレットの制作。内容構成から印刷所への依頼までを担当します。",
+          "pdf_link": "pdfs/パンフレット作成詳細.pdf"
+        },
+        "静岡チラシ管理": {
+          "description": "静岡地区におけるチラシ配布や設置の調整・管理を担当します。",
+          "pdf_link": "pdfs/静岡チラシ管理詳細.pdf"
+        },
+        "浜松チラシ管理": {
+          "description": "浜松地区におけるチラシ配布や設置の調整・管理を担当します。",
+          "pdf_link": "pdfs/浜松チラシ管理詳細.pdf"
+        },
+        "備品管理": {
+          "description": "広報係の活動に必要な備品の管理をします。",
+          "pdf_link": "pdfs/備品管理.pdf"
+        }
+      }
+    },
+    "許可申請部": {
+      "top": "伊東 陽菜",
+      "members": ["児玉 翔", "市場 幹九郎", "佐野 史弥", "安本 龍月", "山田 すずの", "大沼 夏香", "髙田 幸珠来"],
+      "tasks": {
+        "挟み込み、置きチラシ": {
+          "description": "他団体演奏会へのチラシ挟み込み依頼や、各所への置きチラシを担当します。",
+          "pdf_link": "pdfs/挟み込み置きチラシ詳細.pdf"
+        },
+        "事業報告、後援申請": {
+          "description": "演奏会後の報告や、後援申請のための書類作成と提出を担当します。",
+          "pdf_link": "pdfs/事業報告詳細.pdf"
+        },
+        "バンドジャーナル": {
+          "description": "音楽雑誌「バンドジャーナル」への掲載依頼や調整を行います。",
+          "pdf_link": "pdfs/バンドジャーナル詳細.pdf"
+        },
+        "プレイガイド": {
+          "description": "プレイガイドへの演奏会情報の登録や、チケット取り扱いの調整を行います。",
+          "pdf_link": "pdfs/プレイガイド詳細.pdf"
+        }
+      }
     }
   },
   "file_data": {
-    "チラシ・ポスター部": {
-      "drive_link": "https://drive.google.com/drive/folders/XXXXXXX"
+    "広報部": {
+      "drive_link": "https://drive.google.com/drive/folders/1YAz0RLuQPdWHeVYAWvKm8FBXuDwjQyQg?usp=drive_link"
+    },
+    "制作・管理部": {
+      "drive_link": "https://drive.google.com/drive/folders/1mwRxcjVPhwh0H6qkac5tO2l_j_hE8OIh?usp=drive_link"
     },
     "許可申請部": {
-      "drive_link": "https://drive.google.com/drive/folders/YYYYYYY"
-    },
-    "広報部": {
-      "drive_link": "https://drive.google.com/drive/folders/ZZZZZZZ"
+      "drive_link": "https://drive.google.com/drive/folders/1w_-IAaUP9z3AgyAyMY0QDk3VdE-lGLdl?usp=drive_link"
     },
     "その他": {
-      "drive_link": "https://drive.google.com/drive/folders/AAAAAAA"
+      "drive_link": "https://drive.google.com/drive/folders/1_rL_-1vkWr6Q56v4DJdCRmc7wDOH_taY?usp=drive_link"
     }
   }
 }
